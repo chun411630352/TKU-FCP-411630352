@@ -7,10 +7,10 @@ public class hm_05 {
         int quotient=a/b;
         int remainder=a%b;
 
-        System.out.println(sum);
-        System.out.println(difference);
-        System.out.println(product);
-        System.out.println(quotient);
-        System.out.println(remainder);
+        System.out.printf("sum: %d\n",sum);
+        System.out.printf("difference: %d\n",difference);
+        System.out.printf("product: %d\n",product);
+        System.out.printf("quotient: %d\n",quotient);
+        System.out.printf("remainder: %d\n",remainder);
 }
 }
