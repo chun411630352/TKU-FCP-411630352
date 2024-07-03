@@ -1,0 +1,16 @@
+public class hm_05 {
+    public static void main(String[] args) {
+        int a=12,b=7;
+        int sum=a+b;
+        int difference=a-b;
+        int product=a*b;
+        int quotient=a/b;
+        int remainder=a%b;
+
+        System.out.println(sum);
+        System.out.println(difference);
+        System.out.println(product);
+        System.out.println(quotient);
+        System.out.println(remainder);
+}
+}
