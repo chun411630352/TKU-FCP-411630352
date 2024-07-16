@@ -1,13 +1,8 @@
-import java.util.Scanner;
 public class hm_09 {
     public static void main(String[] args) {
-        Scanner cin = new Scanner(System.in);
-
-        System.out.println("輸入長方形的寬:");
-        double width=cin.nextDouble();
-        System.out.println("輸入長方形的長:");
-        double length=cin.nextDouble();
-
-        System.out.println("area= "+(width*length));
+       int a[]={1,2,3,4,5};
+       for(int i=0;i<a.length;i++)
+       System.out.printf("a[%d]=%d, ",i,a[i]);
+            
     }
 }

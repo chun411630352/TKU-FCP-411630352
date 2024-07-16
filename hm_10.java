@@ -1,11 +1,10 @@
-import java.util.Scanner;
 public class hm_10 {
     public static void main(String[] args) {
-        Scanner cin=new Scanner(System.in);
+        int sum=0;
+        int a[]={1,2,3,4,5,6,7,8,9,10};
+       for(int i=0;i<a.length;i++)
+        sum+=a[i];
+        System.out.println("Average = "+(sum));
 
-        System.out.println("輸入華氏溫度:");
-        double f=cin.nextDouble();
-        double c= (f - 32) * 5/9;
-        System.out.println(c);
     }
 }
